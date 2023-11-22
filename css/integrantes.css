@@ -1,0 +1,40 @@
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.contenedor{
+    width: 400px;
+    height: 500px;
+    background-color: #18191B;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-container{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    margin-top: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-container img{
+    object-fit: cover;
+    width: 250px;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+h2{ 
+    margin-top: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
