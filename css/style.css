@@ -49,3 +49,100 @@ ul li a{
     justify-content: center;
     padding: 50px;
 }
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+  #check{
+    display: none;
+  }
+
+  .titulo{
+    display: none;
+  }
+
+  .logo-menu-hamburguesa{
+    display: none;
+  }
+
+@media only screen and (min-width:320px) and (max-width: 425px){
+
+    .ournavbar{
+        height: 50px;
+    }
+
+    .ournavbar ul{
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .list-element-logo{
+        display: none;
+    }
+
+    #carouselExample img{
+        height: 300px;
+    }
+
+    .footer{
+        margin-top: 250px;
+        height: 200px;
+    }
+
+    .checkbtn{
+        display: block;
+        margin: 0px;
+      }
+
+    .hamburguesa{
+        height: 30px;
+        margin-right: 50px;
+        border-radius: 4px;
+    }
+
+    .titulo{
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        margin: 0;
+    }
+
+    .logo-menu-hamburguesa{
+        display: flex;
+        height: 30px;
+        margin-left: 30px;
+    }
+
+    .nav-list{
+        position: absolute;
+        display: block;
+        width: 70vw;
+        height: 65vh;
+        left: -100vw;
+        top: 50px;
+        font-size: 10px;
+        transition: all .5s;
+        z-index: 2;
+        background-color: rgb(42, 41, 41);
+    }
+
+    #check:checked ~ .nav-list{
+        left: 0;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    ul li{
+        margin-top: 20px;
+    }
+
+}
