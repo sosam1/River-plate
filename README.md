@@ -1,5 +1,8 @@
 # River Plate
 
+![Logo de River Plate](img/logo.png)
+
+
 ## Descripción
 
 Este repositorio ha sido creado con el único propósito de realizar una presentación académica. Contiene información relacionada exclusivamente con ese contexto.
