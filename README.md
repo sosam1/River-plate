@@ -1,7 +1,6 @@
 # River Plate
 
-![Logo de River Plate](https://cariverplate.uy/wp-content/uploads/2019/02/River_Plate_2.png)
-
+<img src="[ruta/a/tu/imagen.jpg](https://cariverplate.uy/wp-content/uploads/2019/02/River_Plate_2.png)" alt="Texto Alternativo" width="100"/>
 
 ## Descripción
 
